@@ -2,7 +2,7 @@ backend:
   name: github
   repo: roushan-max/DEMO
   branch: main
-
+  base_url: https://auth.decapbridge.com
 media_folder: "images"
 public_folder: "/images"
 
