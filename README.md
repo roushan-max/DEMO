@@ -1,2 +1,0 @@
-# DEMO
-demo for cms 
