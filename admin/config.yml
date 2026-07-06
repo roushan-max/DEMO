@@ -1,1 +1,18 @@
+backend:
+  name: github
+  repo: roushan-max/DEMO
+  branch: main
 
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Home Page"
+    files:
+      - file: "content/home.md"
+        label: "Home"
+        name: "home"
+        fields:
+          - { label: "Heading", name: "title", widget: "string" }
+          - { label: "Description", name: "body", widget: "markdown" }
